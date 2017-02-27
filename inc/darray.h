@@ -17,6 +17,11 @@
 
 typedef struct		s_darray
 {
+	size_t			size;
+	void			*ll;
+	void			*start;
+	void			*end;
+	void			*rl;
 }					t_darray;
 
 #endif
