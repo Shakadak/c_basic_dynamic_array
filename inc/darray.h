@@ -24,4 +24,5 @@ typedef struct		s_darray
 	void			*rl;
 }					t_darray;
 
+t_darray			darray_new(size_t size, size_t capacity);
 #endif

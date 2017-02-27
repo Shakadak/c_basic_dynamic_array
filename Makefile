@@ -19,18 +19,16 @@ DIROBJ		:=	obj
 DIRTST		:=	test
 DIRLIB		:=	lib
 DIRBIN		:=	bin
-DIRDARRAY	:=	$(DIRSRC)/darray
 DIRMEM		:=	$(DIRSRC)/mem
-DIRNODE		:=	$(DIRSRC)/node
+DIRDARRAY	:=	$(DIRSRC)/darray
 DIRINC		:=	inc
 
 ### FILES ###
 
 ### FILES: SOURCES ###
 
-include $(DIRDARRAY)/src.mk
 include $(DIRMEM)/src.mk
-include $(DIRNODE)/src.mk
+include $(DIRDARRAY)/src.mk
 
 ### FILES: PATHS ###
 
