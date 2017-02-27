@@ -17,6 +17,7 @@
 
 typedef struct		s_darray
 {
+	double			growth_factor;
 	size_t			size;
 	void			*ll;
 	void			*start;
@@ -24,5 +25,5 @@ typedef struct		s_darray
 	void			*rl;
 }					t_darray;
 
-t_darray			darray_new(size_t size, size_t capacity);
+t_darray			darray_new(double growth_factor, size_t size, size_t capacity);
 #endif
