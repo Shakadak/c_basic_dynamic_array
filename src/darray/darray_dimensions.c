@@ -12,12 +12,12 @@
 
 #include "inc/darray.h"
 
-size_t	darray_used(t_darray const * const array)
+size_t	darray_used(t_darray const *const array)
 {
 	return (array->end - array->start) / array->size;
 }
 
-size_t	darray_capacity(t_darray const * const array)
+size_t	darray_capacity(t_darray const *const array)
 {
 	return (array->rl - array->fl) / array->size;
 }

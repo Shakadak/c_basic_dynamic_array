@@ -18,7 +18,7 @@ t_darray	*darray_push_front(void *elem, t_darray *array)
 	array = darray_expand_front(array);
 	ft_memcpy(array->start - array->size, elem, array->size);
 	array->start = array->start - array->size;
-	return array;
+	return (array);
 }
 
 t_darray	*darray_push_back(void *elem, t_darray *array)
@@ -26,5 +26,5 @@ t_darray	*darray_push_back(void *elem, t_darray *array)
 	array = darray_expand_back(array);
 	ft_memcpy(array->end, elem, array->size);
 	array->end = array->end + array->size;
-	return array;
+	return (array);
 }

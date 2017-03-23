@@ -23,5 +23,5 @@ t_darray	darray_new(double growth_factor, size_t size, size_t capacity)
 	new.start = new.fl + (capacity / 2) * size;
 	new.end = new.start;
 	new.rl = new.fl + capacity * size;
-	return new;
+	return (new);
 }

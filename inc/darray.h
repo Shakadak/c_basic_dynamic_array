@@ -25,10 +25,12 @@ typedef struct		s_darray
 	void			*rl;
 }					t_darray;
 
-t_darray			darray_new(double growth_factor, size_t size, size_t capacity);
+t_darray			darray_new(double growth_factor,
+		size_t size,
+		size_t capacity);
 
-size_t				darray_used(t_darray const * const array);
-size_t				darray_capacity(t_darray const * const array);
+size_t				darray_used(t_darray const *const array);
+size_t				darray_capacity(t_darray const *const array);
 
 t_darray			*darray_expand_front(t_darray *array);
 t_darray			*darray_expand_back(t_darray *array);

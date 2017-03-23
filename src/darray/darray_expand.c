@@ -32,7 +32,7 @@ t_darray	*darray_expand_front(t_darray *array)
 		array->end = space + front_space + used;
 		array->rl = space + capacity;
 	}
-	return array;
+	return (array);
 }
 
 t_darray	*darray_expand_back(t_darray *array)
@@ -54,5 +54,5 @@ t_darray	*darray_expand_back(t_darray *array)
 		array->end = space + front_space + used;
 		array->rl = space + capacity;
 	}
-	return array;
+	return (array);
 }
