@@ -6,10 +6,11 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/27 12:24:58 by npineau           #+#    #+#             */
-/*   Updated: 2017/03/27 12:25:20 by npineau          ###   ########.fr       */
+/*   Updated: 2017/10/10 13:17:58 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
 #include "inc/darray.h"
 #include "inc/mem.h"
 
